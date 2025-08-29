@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZapLootX Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🛒 Магазин ZapLootX</h1>
+  </header>
+
+  <main>
+    <section id="products"></section>
+    <section id="trade">
+      <h2>🔄 Трейд между игроками</h2>
+      <form id="tradeForm">
+        <input type="text" placeholder="Что отдаёшь?" id="offer" required>
+        <input type="text" placeholder="Что хочешь получить?" id="want" required>
+        <button type="submit">Выставить</button>
+      </form>
+      <ul id="tradeList"></ul>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
